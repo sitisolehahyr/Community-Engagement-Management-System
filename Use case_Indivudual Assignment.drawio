@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net" modified="2023-12-15T17:26:06.123Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="1LZlduVvPhgn63nfUrlD" version="22.1.11" type="device">
+  <diagram name="Page-1" id="nWjyvHzw5W5XhklCyB30">
+    <mxGraphModel dx="954" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5HdTXNUQFKokCVE12SG_-30" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="10" width="430" height="930" as="geometry" />
+        </mxCell>
+        <mxCell id="DvpvCpovCkW-r0EZn_Pq-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="200" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="5HdTXNUQFKokCVE12SG_-2" value="Administrator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="640" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="5HdTXNUQFKokCVE12SG_-3" value="Register Account" style="ellipse;whiteSpace=wrap;html=1;fillColor=#D4E1F5;" vertex="1" parent="1">
+          <mxGeometry x="365" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5HdTXNUQFKokCVE12SG_-6" value="Browse Causes" style="ellipse;whiteSpace=wrap;html=1;fillColor=#D4E1F5;" vertex="1" parent="1">
+          <mxGeometry x="365" y="140" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5HdTXNUQFKokCVE12SG_-8" value="Contribute Funds" style="ellipse;whiteSpace=wrap;html=1;fillColor=#D4E1F5;" vertex="1" parent="1">
+          <mxGeometry x="365" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5HdTXNUQFKokCVE12SG_-10" value="Track Project Progress" style="ellipse;whiteSpace=wrap;html=1;fillColor=#D4E1F5;" vertex="1" parent="1">
+          <mxGeometry x="365" y="380" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5HdTXNUQFKokCVE12SG_-13" value="Generate Monthly Report" style="ellipse;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" vertex="1" parent="1">
+          <mxGeometry x="365" y="490" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5HdTXNUQFKokCVE12SG_-15" value="Manage User Accounts" style="ellipse;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" vertex="1" parent="1">
+          <mxGeometry x="365" y="600" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5HdTXNUQFKokCVE12SG_-17" value="Manage Causes" style="ellipse;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" vertex="1" parent="1">
+          <mxGeometry x="365" y="720" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5HdTXNUQFKokCVE12SG_-18" value="Resolve Disputes" style="ellipse;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" vertex="1" parent="1">
+          <mxGeometry x="365" y="830" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5HdTXNUQFKokCVE12SG_-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="5HdTXNUQFKokCVE12SG_-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="230" as="sourcePoint" />
+            <mxPoint x="360" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5HdTXNUQFKokCVE12SG_-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DvpvCpovCkW-r0EZn_Pq-1" target="5HdTXNUQFKokCVE12SG_-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="255" as="sourcePoint" />
+            <mxPoint x="220" y="205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5HdTXNUQFKokCVE12SG_-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="5HdTXNUQFKokCVE12SG_-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="240" as="sourcePoint" />
+            <mxPoint x="330" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5HdTXNUQFKokCVE12SG_-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.042;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DvpvCpovCkW-r0EZn_Pq-1" target="5HdTXNUQFKokCVE12SG_-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="500" as="sourcePoint" />
+            <mxPoint x="260" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5HdTXNUQFKokCVE12SG_-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.033;entryY=0.613;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="5HdTXNUQFKokCVE12SG_-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="670" as="sourcePoint" />
+            <mxPoint x="361" y="538" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5HdTXNUQFKokCVE12SG_-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5HdTXNUQFKokCVE12SG_-2" target="5HdTXNUQFKokCVE12SG_-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="700" as="sourcePoint" />
+            <mxPoint x="240" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5HdTXNUQFKokCVE12SG_-25" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.008;entryY=0.425;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5HdTXNUQFKokCVE12SG_-2" target="5HdTXNUQFKokCVE12SG_-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="830" as="sourcePoint" />
+            <mxPoint x="310" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5HdTXNUQFKokCVE12SG_-26" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.042;entryY=0.338;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="5HdTXNUQFKokCVE12SG_-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="690" as="sourcePoint" />
+            <mxPoint x="200" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5HdTXNUQFKokCVE12SG_-27" value="&lt;b&gt;Crownfunding Services for Social Causes&lt;/b&gt;&lt;span id=&quot;docs-internal-guid-c5508e39-7fff-0532-39dc-8f1c5bc7b82f&quot;&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="225" y="10" width="260" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
